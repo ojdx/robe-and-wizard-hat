@@ -1,0 +1,18 @@
+doctype 5
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/css/style.css')
+    body
+        h1= title
+        div.container
+
+            div.well
+                p
+                    button.btn.btn-primary.btn-large.pingServer Ping
+                    button.btn.btn-danger.btn-large.disconnectSession Disconnect
+
+        div.container
+            h2 Client output
+            div.clientOutput
+script(src='js/libs/require.js', data-main='js/main')
