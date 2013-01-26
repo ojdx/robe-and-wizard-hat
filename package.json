@@ -25,9 +25,6 @@
         "type": "git",
         "url": "git@github.com:ojdx/robe-and-wizard-hat.git"
     },
-  "dependencies": {
-    "fs": "*"
-  },
   "bin": { "robe-and-wizard-hat": "./bin/robe-and-wizard-hat" },
   "engines": { "node": "*" }
 }
