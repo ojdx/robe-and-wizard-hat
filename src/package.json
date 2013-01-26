@@ -11,6 +11,24 @@
         "name": "Jeremy Williams",
         "email": "jeremy@ojdx.com"
     }],
+  "scripts": {
+    "start": "node app",
+    "postinstall": "jam install"
+
+  },
+  "jam": {
+    "baseUrl": "public/js",
+    "packageDir": "public/js/libs",
+    "dependencies": {
+        "jquery": "*",
+        "domReady": "*",
+        "underscore": "*",
+        "backbone": "*",
+        "hogan": "*",
+        "socket.io": "*",
+        "bootstrap": "*"
+    }
+  },
   "keywords": [
         "express",
         "framework",
@@ -26,9 +44,12 @@
         "url": "git@github.com:ojdx/robe-and-wizard-hat.git"
     },
   "dependencies": {
-    "fs": "*",
-    "child-process": "*"
-  },
-  "bin": { "robe-and-wizard-hat": "./bin/robe-and-wizard-hat" },
-  "engines": { "node": "*" }
+    "express": "*",
+    "jade": "*",
+    "less-middleware": "*",
+    "socket.io": "*",
+    "connect": "*",
+    "underscore": "*",
+    "nconf": "*"
+  }
 }
