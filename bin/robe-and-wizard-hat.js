@@ -4,9 +4,9 @@ var fs = require('fs')
 
 var methods = {
     create: function (path) {
-        console.log('You put on your robe and wizard hat  ' + path)
+        console.log('You put on your robe and wizard hat')
         fs.mkdirSync('./' + path)
-        exec('cp -R ' + __dirname + '/' + path, function (err, out) {
+        exec('cp -R ' + __dirname + '/../src/' + ' ' + path, function (err, out) {
             if (err) return console.log('error', err)
             console.log('You meditate to regain your strength')
         })
