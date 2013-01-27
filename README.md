@@ -4,7 +4,11 @@
 <p>
 Simple singlepage socket application with socket.io, express, bootstrap. Uses express to set up an http session and
 adds a socket.io listener with MemoryStore access to the http session. The client side is preconfigured for twitterbootstrap
+you'll need to have jamjs installed
 </p>
+<pre><code>
+npm install jamjs
+</code></pre>
 
 <h2>Installation</h2>
 <h3>Get the app</h3>
