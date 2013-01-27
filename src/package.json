@@ -2,15 +2,6 @@
   "name": "robe-and-wizard-hat",
   "version": "0.1.2-beta",
   "description": "Starting point for building a Single Page Application",
-  "author": {
-    "name": "Jeremy Williams",
-    "email": "jeremy@ojdx.com"
-  },
-  "contributors": [
-    {
-        "name": "Jeremy Williams",
-        "email": "jeremy@ojdx.com"
-    }],
   "scripts": {
     "start": "node app",
     "postinstall": "jam install"
@@ -29,20 +20,6 @@
         "bootstrap": "*"
     }
   },
-  "keywords": [
-        "express",
-        "framework",
-        "singlepage",
-        "backbone",
-        "socket.io",
-        "microarchitecture",
-        "template",
-        "start"
-  ],
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:ojdx/robe-and-wizard-hat.git"
-    },
   "dependencies": {
     "express": "*",
     "jade": "*",
