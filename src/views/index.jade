@@ -4,15 +4,7 @@ html
         title= title
         link(rel='stylesheet', href='/css/style.css')
     body
-
         div.container
-            h1= title
             div.well
-                p
-                    button.btn.btn-primary.btn-large.pingServer Ping
-                    button.btn.btn-danger.btn-large.disconnectSession Disconnect
-
-        div.container
-            h2 Client output
-            div.clientOutput
+              h1= title
 script(src='js/libs/require.js', data-main='js/main')
