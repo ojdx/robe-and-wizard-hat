@@ -1,3 +1,13 @@
+/*!
+ * robe-and-wizard-hat
+ * Copyright(c) 2012 Jeremy Williams
+ * MIT Licensed
+ */
+
+/**
+ * Example application view this will set up a ping connection server
+ */
+
 define([
     'jquery',
     'underscore',

@@ -1,7 +1,7 @@
 {
   "name": "robe-and-wizard-hat",
-  "version": "0.1.5-beta",
-  "description": "Starting point for building a Single Page Application",
+  "version": "1.0.0",
+  "description": "Starting point for building a single page application",
   "author": {
     "name": "Jeremy Williams",
     "email": "jeremy@ojdx.com"

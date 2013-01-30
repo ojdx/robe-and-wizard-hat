@@ -1,3 +1,14 @@
+/*!
+ * robe-and-wizard-hat
+ * Copyright(c) 2012 Jeremy Williams
+ * MIT Licensed
+ */
+
+/**
+ * main application on dom ready load the application
+ */
+
+//global reference. attach globals to this, use sparingly like for the application event bus and that's it
 var d3Application = {};
 (function() {
     'use strict';
@@ -5,7 +16,7 @@ var d3Application = {};
     require(['domReady'], function(domReady, map){
         domReady(function(){
             updateModuleProgress = function(domReady, map){
-                console.log('loading ' + map.name + ' at ' + map.url);
+                //console.log('loading ' + map.name + ' at ' + map.url);   uncomment and see everything load
             };
         });
     });
@@ -19,7 +30,7 @@ var d3Application = {};
         }
     );
     var updateModuleProgress = function(context, map, depMaps){
-        console.log('loading: ' + map.name + ' at ' + map.url);
+        //console.log('loading: ' + map.name + ' at ' + map.url);   uncomment and see everything load
     };
     require.onResourceLoad = function(context, map, depMaps){
         updateModuleProgress(context, map, depMaps);
