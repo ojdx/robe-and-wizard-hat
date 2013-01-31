@@ -7,17 +7,17 @@
 /**
  * simple source copy to the created directory
  */
-var fs = require('fs')
-    , exec = require('child_process').exec
+var fs = require('fs'),
+    mv = require('mv')
 
 var methods = {
     create: function (path) {
         console.log('You put on your robe and wizard hat')
         fs.mkdirSync('./' + path)
-        exec('cp -R ' + __dirname + '/../src/' + ' ' + path, function (err, out) {
+        mv(__dirname + '/../src/', './' + path, function(err){
             if (err) return console.log('error', err)
-            console.log('You meditate to regain your mana')
-        })
+            console.log('You meditate to regain your mana');
+        });
     }
 }
 !function (args) {
