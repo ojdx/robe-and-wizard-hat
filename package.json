@@ -26,7 +26,7 @@
         "url": "git@github.com:ojdx/robe-and-wizard-hat.git"
     },
     "dependencies": {
-        "mv": "*"
+        "wrench": "*"
     },
   "bin": { "robe-and-wizard-hat": "./bin/robe-and-wizard-hat.js" },
   "engines": { "node": "*" }
