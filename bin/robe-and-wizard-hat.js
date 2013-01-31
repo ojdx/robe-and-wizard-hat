@@ -14,7 +14,7 @@ var methods = {
     create: function (path) {
         console.log('You put on your robe and wizard hat')
         fs.mkdirSync('./' + path)
-        mv(__dirname + '/../src/', './' + path, function(err){
+        mv('../src/', './' + path, function(err){
             if (err) return console.log('error', err)
             console.log('You meditate to regain your mana');
         });
